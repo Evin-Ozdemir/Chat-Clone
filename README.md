@@ -6,6 +6,9 @@
  <p>Watch the video to see how the project works! 👇</p>
    
 
+https://github.com/user-attachments/assets/2d27933a-008e-4f9f-9241-4ed7bce80bb3
+
+
 <h2>🛠️ Technologies and Libraries Used</h2>
  <ul>
    <li>⚛️ React: Modern component-based frontend library.</li>
