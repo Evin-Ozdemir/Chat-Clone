@@ -8,13 +8,13 @@ import { getFirestore } from "firebase/firestore";
 import { getToken } from "firebase/messaging";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB5ip9yut30K4Y1F8DUjHCiI74nsECIkK4",
-  authDomain: "chatapp-ce65b.firebaseapp.com",
-  projectId: "chatapp-ce65b",
-  storageBucket: "chatapp-ce65b.firebasestorage.app",
-  messagingSenderId: "541861823546",
-  appId: "1:541861823546:web:2c00741a21b94abefd6103",
-  measurementId: "G-GM7BZ17Q3E",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 // Firebase başlat
